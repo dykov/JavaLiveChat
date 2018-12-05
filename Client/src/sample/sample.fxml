@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="textArea" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="323.0" prefWidth="571.0" wrapText="true" />
+      <TextField fx:id="textFieldLogin" layoutX="14.0" layoutY="361.0" promptText="Login" />
+      <TextField fx:id="textFieldMessage" layoutX="163.0" layoutY="361.0" prefHeight="25.0" prefWidth="329.0" promptText="Message" />
+      <Button fx:id="button" layoutX="492.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Отправить" />
+   </children>
+</AnchorPane>
